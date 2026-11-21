@@ -6,19 +6,19 @@
 <body>
 <h2>Move the mouse over the image</h2>
 <div onmouseover="newContent()" onmouseout="changeContent()">
-<img id="myImage" src="C:\niranjana mca\web Lab\images (2).jpg" width="200" height="150">
+<img id="myImage" src="C:\niranjana mca\web Lab\mouseclick/images (2).jpg" width="200" height="150">
 <h3 id="myText">This is the Original Image</h3>
 </div>
 <script>
 function newContent()
 {
-document.getElementById("myImage").src ="C:/niranjana mca/web Lab/images.jpg";
+document.getElementById("myImage").src ="C:/niranjana mca/web Lab/mouseclick/images.jpg";
 document.getElementById("myText").innerHTML =
 "This is the New Image";
 }
 function changeContent()
 {
-document.getElementById("myImage").src ="C:/niranjana mca/web Lab/images (2).jpg";
+document.getElementById("myImage").src ="C:/niranjana mca/web Lab/mouseclick/images (2).jpg";
 document.getElementById("myText").innerHTML =
 "This is the Original Image";
 }
